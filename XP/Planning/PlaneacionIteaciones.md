@@ -18,7 +18,7 @@
 - Ejecución de pruebas de aceptación.
 
 ### Tiempo: 
-  2 dia
+  2 dias
 ### Seguimiento
 [Referencia al archivo]
 
