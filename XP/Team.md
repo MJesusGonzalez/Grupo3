@@ -1,3 +1,17 @@
-Jean Pierre Villacis 
-Coach
-Pikachu
+# Team
+## Nombre del equipo
+
+## Integrantes
+-
+-
+-
+-
+-
+## Metáfora
+| Rol              | Nombre      | Nombre en el Equipo |
+|------------------|-------------|---------------------|
+|       |     |      |
+|       |     |      |
+|       |     |      |
+|       |     |      |
+|       |     |      |
