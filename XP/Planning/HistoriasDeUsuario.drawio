@@ -46,7 +46,7 @@
                 <mxCell id="16" value="Criterios de aceptación:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="69" y="370" width="690" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Como usuario deseso una aplicación en una interfaz de consola que realice las actividades de gestión de tareas. Es decir, deseo poder crear, visualizar, borrar y marcar como completadas las tareas que se tengan.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                <mxCell id="17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Como usuario deseo una aplicación en una interfaz de consola que realice las actividades de gestión de tareas. Es decir, deseo poder crear, visualizar, borrar y marcar como completadas las tareas que se tengan.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="159" y="290" width="600" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="1. Como usuario, quiero poder ejecutar el programa en mi consola para acceder a las funcionalidades.&lt;br&gt;2. Como usuario, deseo que el programa tenga interfaz en consola que sea intuitiva y fácil de usar.&lt;br&gt;&lt;div&gt;3. Como usuario, quiero tener la capacidad de agregar nuevas tareas a mi lista.&lt;/div&gt;&lt;div&gt;4. Como usuario, deseo poder eliminar tareas de la lista sin importar el estado en que se encuentre (completado o pendiente).&lt;/div&gt;&lt;div&gt;5. Como usuario, deseo poder marcar una tarea como completada para indicar que he terminado de hacerla.&lt;/div&gt;&lt;div&gt;6. Como usuario, deseo poder ver todas mis tareas de forma clara en la consola.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
@@ -54,6 +54,57 @@
                 </mxCell>
                 <mxCell id="19" value="* El programa debe almacenar la lista de tareas de manera persistente, de modo que los datos se conserven entre sesiones." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="69" y="530" width="690" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="609" width="690" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Historia De Usuario&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="609" width="690" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="HU02" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="669" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Nombre: Filtrado de la lista de tareas&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="669" width="570" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Usuario: Cliente" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="709" width="690" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Modificación de Historia Número" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="749" width="341" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Iteración Asignada: 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="749" width="349" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Prioridad en Negocio: Alto" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="789" width="341" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Puntos Estimados:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="789" width="349" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Riesgo en Desarrollo:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="829" width="341" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Puntos Reales" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="829" width="349" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Observaciones:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="1079" width="690" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Descripción:&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="869" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Criterios de aceptación:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="949" width="690" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Como usuario deseo poder visualizar la lista de tareas mediante un de manera filtrada en base a los estados: completado y pendientes.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="159" y="869" width="600" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="1. Como usuario, quiero poder ejecutar el programa en mi consola para acceder a las funcionalidades.&lt;br&gt;2. Como usuario, deseo que el programa tenga interfaz en consola que sea intuitiva y fácil de usar.&lt;br&gt;&lt;div&gt;3.&amp;nbsp;Como usuario, quiero poder filtrar mis tareas según su estado (pendiente o completada) para visualizar solo las que me interesen en un momento dado.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="979" width="690" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="* El programa debe almacenar la lista de tareas de manera persistente, de modo que los datos se conserven entre sesiones." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="1109" width="690" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
