@@ -1,0 +1,177 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Meowth, Infenape, Pikachu"
+      },
+      "category": "Diseño",
+      "creation_time": "2023-06-27T04:45:25.005Z",
+      "description": {
+        "content": "Creación del casos de uso",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Creación de diseños"
+    },
+    {
+      "assignedTo": {
+        "name": "Meowth, Infenape, Bárbol (cliente)"
+      },
+      "category": "Diseño",
+      "creation_time": "2023-06-27T04:46:25.957Z",
+      "description": {
+        "content": "Realización de los maquetados",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Creación de diseños"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix, Meowth, Infenape"
+      },
+      "category": "Codificación",
+      "creation_time": "2023-06-27T04:48:52.533Z",
+      "description": {
+        "content": "Escritura del plan de pruebas",
+        "mime": "text/markdown"
+      },
+      "id": "9",
+      "references": [],
+      "title": "Escritura de criterios de pruebas"
+    },
+    {
+      "assignedTo": {
+        "name": "Meowth, Infenape"
+      },
+      "category": "Codificación",
+      "creation_time": "2023-06-27T04:48:02.373Z",
+      "description": {
+        "content": "Programación de la primera historia de usuario.",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Programación"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix, Meowth, Infenape, Bárbol (cliente)"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:50:42.621Z",
+      "description": {
+        "content": "Ejecución de las pruebas funcionales",
+        "mime": "text/markdown"
+      },
+      "id": "11",
+      "references": [],
+      "title": "Realizar Pruebas Funcionales"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix, Meowth, Infenape"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:49:50.068Z",
+      "description": {
+        "content": "Ejecución de las pruebas unitarias",
+        "mime": "text/markdown"
+      },
+      "id": "10",
+      "references": [],
+      "title": "Realizar Pruebas Unitarias"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (cliente y gestor), Meowth, Infenape"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:51:31.267Z",
+      "description": {
+        "content": "Ejecución de las pruebas de aceptación",
+        "mime": "text/markdown"
+      },
+      "id": "12",
+      "references": [],
+      "title": "Realizar Pruebas De Aceptación"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Pikachu, Meowth, Infernape"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:43:02.070Z",
+      "description": {
+        "content": "Escritura del documento de estandares",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Creación de estandares"
+    }
+  ],
+  "testing": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Bárbol (gestor), Pikachu"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:39:44.376Z",
+      "description": {
+        "content": "Realización del documento de visión",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Escritura de la visión"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (cliente y gestor), Pikachu"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:38:56.368Z",
+      "description": {
+        "content": "Creación de las historias de usuario",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Historias de usuario."
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (gestor), Pikachu, Vulpix, Meowth, Infernape"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:41:43.014Z",
+      "description": {
+        "content": "Planeación de la siteraciones",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "Juego de planificación"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (gestor y cliente), Pikachu, Vulpix, Meowth, Infernape"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:40:36.534Z",
+      "description": {
+        "content": "Documento del team",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Organización del equipo"
+    }
+  ]
+}
