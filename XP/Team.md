@@ -12,6 +12,6 @@ Equipo paleta
 |------------------|-------------|---------------------|
 |     Tester  |   Salome Garzon  |  Vulpix    |
 |   Programador    |   Ronnie Gonzalez  |   Infernape   |
-|    Developer     | Santiago Gualotuna |   Meowth     |
+|    Programador   | Santiago Gualotuna |   Meowth     |
 | Entrenador       | Jean Villacís    |  Pikachu    |
 |   Gestor / Cliente    |  Jesus Gonzalez   |  Bárbol    |
