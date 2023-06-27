@@ -5,7 +5,7 @@
 - Salome Garzon
 -
 -
--
+- Jean Pierre Villacís
 -
 ## Metáfora
 | Rol              | Nombre      | Nombre en el Equipo |
@@ -13,5 +13,5 @@
 |     Tester  |   Salome Garzon  |  Bulpix    |
 |       |     |      |
 |       |     |      |
-|    Gestor   |     |      |
-|       |  Jesus Gonzalez   |  Bárbol    |
+| Entrenador       | Jean Villacís    |  Pikachu    |
+|   Gestor / Cliente    |  Jesus Gonzalez   |  Bárbol    |
