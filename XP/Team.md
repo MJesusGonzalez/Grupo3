@@ -13,5 +13,5 @@
 |     Tester  |   Salome Garzon  |  Bulpix    |
 |       |     |      |
 |       |     |      |
-|       |     |      |
-|       |     |      |
+|    Gestor   |     |      |
+|       |  Jesus Gonzalez   |  Bárbol    |
