@@ -1,7 +1,7 @@
-const Tarea = require("./tarea");
-const colors = require('colors');
+import {Tarea} from "./tarea.js";
+import colors from 'colors';
 
-class Tareas{
+export class Tareas{
     #listado;
     constructor(){
         this.#listado = {};
@@ -57,5 +57,4 @@ class Tareas{
     
 }
 
-module.exports = Tareas;
 

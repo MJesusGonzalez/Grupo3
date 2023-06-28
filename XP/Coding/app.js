@@ -1,6 +1,6 @@
-const { guardarDB, leerDB } = require('./helpers/guardarArchivo');
-const { inquirerMenu, pausa, leerInput, listadoTareasBorrar, confirmarPregunta, mostrarListadoCompletado } = require('./helpers/inquirer');
-const Tareas = require('./models/tareas')
+import { guardarDB, leerDB } from './helpers/guardarArchivo.js';
+import { inquirerMenu, pausa, leerInput, listadoTareasBorrar, confirmarPregunta, mostrarListadoCompletado } from './helpers/menu.js';
+import {Tareas} from './models/tareas.js';
 console.clear()
 
 const main = async() => { 

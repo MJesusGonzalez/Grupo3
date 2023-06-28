@@ -1,7 +1,7 @@
-const {v4: uuidv4} = require('uuid');
-const colors = require('colors');
+import {v4 as uuidv4}  from 'uuid';
+import colors from 'colors';
 
-class Tarea{
+export class Tarea{
     static fromJson({id,descripcion,completado}){
         const tarea = new Tarea(descripcion);
         console.log('tareas: ',tarea.getDescripcion)
@@ -32,5 +32,4 @@ class Tarea{
     }    
 }
 
-module.exports = Tarea;
 

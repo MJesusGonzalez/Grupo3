@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 const archivo = './database/data.json';
 
 const guardarDB = (data)=>{
@@ -11,7 +11,7 @@ const leerDB = () => {
      return JSON.parse(info);
 }
 
-module.exports = {
+export {
     guardarDB,
     leerDB
 }
