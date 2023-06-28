@@ -24,7 +24,7 @@ const main = async() => {
                 break;
             case '3': // marcar como completadas y pendientes 
                 const ids= await mostrarListadoCompletado(listaTareas.getListado);
-                listadoTareas.toggleCompletadas(ids);
+                listaTareas.toggleCompletadas(ids);
                 break;
             case '4': // Borrar tareas
                 const id = await listadoTareasBorrar(listaTareas.getListado);
