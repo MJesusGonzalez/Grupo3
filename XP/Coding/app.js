@@ -1,3 +1,5 @@
+const { inquirerMenu, pausa, leerInput, listadoTareasBorrar, confirmarPregunta, mostrarListadoCompletado } = require('./helpers/inquirer');
+
 console.clear()
 
 const main = async() => { 
@@ -7,6 +9,7 @@ const main = async() => {
         opcion = await inquirerMenu();  
         switch (opcion) {
             case '1':   // Crear tarea
+                const desc = await leerInput('Descripcion: ');
                 break;
             case '2':  // Listar todas las tareas
                 break;
