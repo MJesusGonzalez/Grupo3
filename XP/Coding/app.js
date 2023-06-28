@@ -1,5 +1,6 @@
+const { guardarDB, leerDB } = require('./helpers/guardarArchivo');
 const { inquirerMenu, pausa, leerInput, listadoTareasBorrar, confirmarPregunta, mostrarListadoCompletado } = require('./helpers/inquirer');
-
+const Tareas = require('./models/tareas')
 console.clear()
 
 const main = async() => { 
