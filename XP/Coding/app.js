@@ -38,6 +38,7 @@ const main = async() => {
                 break;
             
         }
+        guardarDB(listaTareas.getListado);
         await pausa();
     }while(opcion !== '0');
  }
