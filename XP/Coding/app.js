@@ -4,7 +4,13 @@ const Tareas = require('./models/tareas')
 console.clear()
 
 const main = async() => { 
-    let opcion ='';
+    let opcion = '';
+    const listaTareas = new Tareas();
+    const tareasDB = leerDB();
+    if(tareasDB){ //cargar tareas
+        //Establecer las tareas
+        listaTareas.cargarTareasFromArray(tareasDB).getListado;
+    }
     do{
         // Imprimir el menu
         opcion = await inquirerMenu();  
