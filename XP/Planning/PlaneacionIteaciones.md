@@ -2,7 +2,7 @@
 ## Iteración 1
 
 - Historias de usuario.
-- Documento de vision.
+- Documento de visión.
 - Organización del equipo.
 - Plan de Iteración.
 - Workflow.
@@ -18,7 +18,7 @@
 - Ejecución de pruebas de aceptación.
 
 ### Tiempo: 
-  2 dias
+  2 días
 ### Seguimiento
 [Referencia al archivo]
 
@@ -32,6 +32,6 @@
 - Ejecución de pruebas de aceptación.
 - Lanzamiento
 ### Tiempo: 
-  2 dias
+  2 días
 ### Seguimiento
 [Referencia al archivo]
