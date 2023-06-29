@@ -31,3 +31,27 @@ Historia de usuario 01:
 4. Como usuario, deseo poder eliminar tareas de la lista sin importar el estado en que se encuentre (completado o pendiente).
 5. Como usuario, deseo poder marcar una tarea como completada para indicar que he terminado de hacerla.
 6. Como usuario, deseo poder ver todas mis tareas de forma clara en la consola.
+
+## Release 2
+### Estimaciones de esfuerzo
+Duración: 2 días
+### Objetivos del lanzamiento:
+1. Implementar la funcionalidad de presentar las tareas que se han completado.
+2. Implementar la funcionalidad de presentar las tareas que se han completado.
+3. Implementar la funcionalidad de presentar las tareas que no se han completado.
+4. Ejecutar las distintas pruebas y corregir errores.
+### Cronograma
+1. Día 3 y 4
+    3.1. Implementar la funcionalidad de ver las tareas completadas y pendientes.
+    4.1. Realizar los cambios necesarios para que esta funcionalidad no altere las anteriores funciones.
+    4.2. Realizar los cambios necesarios para que el archivo con la información se almacene con esta característica.
+    4.3. Ejecutar las distintas pruebas para comprobar el buen funcionamiento.
+    4.4. Realizar correcciones en caso de existir errores. 
+### Historias de usuario
+Historia de usuario 02: 
+* Nombre: Filtrado de la lista de tareas 
+* Descripción: Funcionalidad de visualizar la lista de tareas de manera filtrada con base a los estados: completado y pendientes.
+### Criterios de aceptación
+1. Como usuario, quiero poder ejecutar el programa en mi consola para acceder a las funcionalidades.
+2. Como usuario, deseo que el programa tenga interfaz en consola que sea intuitiva y fácil de usar.
+3. Como usuario, quiero poder filtrar mis tareas según su estado (pendiente o completada) para visualizar solo las que me interesen en un momento dado.
