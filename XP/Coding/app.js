@@ -22,11 +22,17 @@ const main = async() => {
             case '2':  // Listar todas las tareas
                 listaTareas.listadoCompleto();
                 break;
-            case '3': // marcar como completadas y pendientes 
+            case '3':  // Listar las tareas completadas
+                listaTareas.tareasCompletadasPendientes(true);
+                break;
+            case '4': // Listar las tareas pendientes
+                listaTareas.tareasCompletadasPendientes(false);
+                break;
+            case '5': // marcar como completadas y pendientes 
                 const ids= await mostrarListadoCompletado(listaTareas.getListado);
                 listaTareas.toggleCompletadas(ids);
                 break;
-            case '4': // Borrar tareas
+            case '6': // Borrar tareas
                 const id = await listadoTareasBorrar(listaTareas.getListado);
                 if (id !== '0') {
                     const confirmar = await confirmarPregunta('Estas Seguro ?');

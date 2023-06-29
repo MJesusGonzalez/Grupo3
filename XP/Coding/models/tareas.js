@@ -22,7 +22,18 @@ export class Tareas{
             console.log(` ${colors.green(idx+1+'.')} ${item.descripcion} :: ${estado} `)
         } );
     }
-
+    tareasCompletadasPendientes(completado){
+        let count=0;  
+        console.log('')
+        this.getListado.filter((item)=>{
+            const estado = (item.completado)? 'Completada'.green:'Pendiente'.red;
+            if(item.completado === completado){
+                count++;
+                console.log(` ${colors.green(count+'.')} ${item.descripcion} :: ${estado} `)
+            }
+        });        
+    }
+    
     borrarTarea(id=''){
         if(this.#listado[id]){
             delete this.#listado[id];
