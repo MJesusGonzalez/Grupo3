@@ -1,5 +1,8 @@
 {
-  "todo": [
+  "todo": [],
+  "in-progress": [],
+  "testing": [],
+  "done": [
     {
       "assignedTo": {
         "name": "Meowth, Infenape, Pikachu"
@@ -30,6 +33,20 @@
     },
     {
       "assignedTo": {
+        "name": "Pikachu, Meowth, Infernape"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-27T04:43:02.070Z",
+      "description": {
+        "content": "Escritura del documento de estandares",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Creación de estandares"
+    },
+    {
+      "assignedTo": {
         "name": "Vulpix, Meowth, Infenape"
       },
       "category": "Codificación",
@@ -42,81 +59,6 @@
       "references": [],
       "title": "Escritura de criterios de pruebas"
     },
-    {
-      "assignedTo": {
-        "name": "Meowth, Infenape"
-      },
-      "category": "Codificación",
-      "creation_time": "2023-06-27T04:48:02.373Z",
-      "description": {
-        "content": "Programación de la primera historia de usuario.",
-        "mime": "text/markdown"
-      },
-      "id": "8",
-      "references": [],
-      "title": "Programación"
-    },
-    {
-      "assignedTo": {
-        "name": "Vulpix, Meowth, Infenape, Bárbol (cliente)"
-      },
-      "category": "Pruebas",
-      "creation_time": "2023-06-27T04:50:42.621Z",
-      "description": {
-        "content": "Ejecución de las pruebas funcionales",
-        "mime": "text/markdown"
-      },
-      "id": "11",
-      "references": [],
-      "title": "Realizar Pruebas Funcionales"
-    },
-    {
-      "assignedTo": {
-        "name": "Vulpix, Meowth, Infenape"
-      },
-      "category": "Pruebas",
-      "creation_time": "2023-06-27T04:49:50.068Z",
-      "description": {
-        "content": "Ejecución de las pruebas unitarias",
-        "mime": "text/markdown"
-      },
-      "id": "10",
-      "references": [],
-      "title": "Realizar Pruebas Unitarias"
-    },
-    {
-      "assignedTo": {
-        "name": "Bárbol (cliente y gestor), Meowth, Infenape"
-      },
-      "category": "Pruebas",
-      "creation_time": "2023-06-27T04:51:31.267Z",
-      "description": {
-        "content": "Ejecución de las pruebas de aceptación",
-        "mime": "text/markdown"
-      },
-      "id": "12",
-      "references": [],
-      "title": "Realizar Pruebas De Aceptación"
-    }
-  ],
-  "in-progress": [
-    {
-      "assignedTo": {
-        "name": "Pikachu, Meowth, Infernape"
-      },
-      "category": "Planificación",
-      "creation_time": "2023-06-27T04:43:02.070Z",
-      "description": {
-        "content": "Escritura del documento de estandares",
-        "mime": "text/markdown"
-      },
-      "id": "5",
-      "references": [],
-      "title": "Creación de estandares"
-    }
-  ],
-  "testing": [],
-  "done": [
     {
       "assignedTo": {
         "name": "Bárbol (gestor), Pikachu"
@@ -152,7 +94,7 @@
       "category": "Planificación",
       "creation_time": "2023-06-27T04:41:43.014Z",
       "description": {
-        "content": "Planeación de la siteraciones",
+        "content": "Planeación de las iteraciones",
         "mime": "text/markdown"
       },
       "id": "4",
@@ -172,6 +114,76 @@
       "id": "3",
       "references": [],
       "title": "Organización del equipo"
+    },
+    {
+      "assignedTo": {
+        "name": "Meowth, Infenape"
+      },
+      "category": "Codificación",
+      "creation_time": "2023-06-27T04:48:02.373Z",
+      "description": {
+        "content": "Programación de la primera historia de usuario.",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Programación"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (cliente y gestor), Meowth, Infenape"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:51:31.267Z",
+      "description": {
+        "content": "Ejecución de las pruebas de aceptación",
+        "mime": "text/markdown"
+      },
+      "id": "12",
+      "references": [],
+      "title": "Realizar Pruebas De Aceptación"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix, Meowth, Infenape, Bárbol (cliente)"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:50:42.621Z",
+      "description": {
+        "content": "Ejecución de las pruebas funcionales",
+        "mime": "text/markdown"
+      },
+      "id": "11",
+      "references": [],
+      "title": "Realizar Pruebas Funcionales"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix, Meowth, Infenape"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-27T04:49:50.068Z",
+      "description": {
+        "content": "Ejecución de las pruebas unitarias",
+        "mime": "text/markdown"
+      },
+      "id": "10",
+      "references": [],
+      "title": "Realizar Pruebas Unitarias"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (gestor y cliente), Infernape, Meowth"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-30T04:12:38.775Z",
+      "description": {
+        "content": "Escritura del release plan",
+        "mime": "text/markdown"
+      },
+      "id": "13",
+      "references": [],
+      "title": "Release plan"
     }
   ]
 }
