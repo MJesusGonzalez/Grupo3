@@ -4,7 +4,7 @@
 
 La lista de tareas o To Do List es una aplicación diseñada para llevar el control de las tareas o actividades pertenecientes a una persona. Para esto, contiene un menú principal que permite realizar una actividad específica dependiendo lo que desee el usuario y almacena dicha información de manera que la información y las acciones realizadas sean persistentes.
 
-Es importante considerar que, al ser un programa en consola y está escritp en JavaScript, para poder ejecutar el programa primero se necesita instalar los paquetes pertenecientes al manejador de paquetes de Node. Esto se lo realiza con el siguiente comando:
+Es importante considerar que, al ser un programa en consola y está escrito en JavaScript, para poder ejecutar el programa primero debe encontrarse en el directorio correspondiente, segundo se necesita instalar los paquetes pertenecientes al manejador de paquetes de Node. Esto se lo realiza con el siguiente comando:
 
 * npm i
 
