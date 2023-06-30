@@ -23,7 +23,6 @@ export class Tareas{
     }
     tareasCompletadasPendientes(completado){
         let count=0;  
-        console.log('')
         this.getListado.filter((item)=>{
             const estado = (item.completado)? 'Completada'.green:'Pendiente'.red;
             if(item.completado === completado){
