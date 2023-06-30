@@ -5,24 +5,27 @@ import { Tareas } from './models/tareas.js';
 import { Tarea } from './models/tarea.js';
 import { jest } from '@jest/globals';
 import colors from 'colors';
+import {v4 as uuidv4}  from 'uuid';
 
 // Prueba para comprobar si se guarda correctamente en el archivo
 describe('Prueba de la función guardarDB', () => {
-  test('Debe guardar los datos correctamente en el archivo', () => {
-    const archivo = './database/data.json'
-    const datos = [{ id: '1', completado: false, descripcion: 'Tarea 1' }];
+  const archivo = './database/data.json'
+  const datos = [{ id: uuidv4(), completado: false, descripcion: 'Tarea 1' }];
+  test('Debe verificar que el archivo existe', () => {
     guardarDB(datos);
     expect(fs.existsSync(archivo)).toBe(true); // verifica que el archivo existe
+  });
+  test('Debe verificar si los datos guardados son correctos',()=>{
     const dataArchivo = JSON.parse(fs.readFileSync(archivo, { encoding: 'utf-8' }));
     expect(dataArchivo).toEqual(datos); //verifica si los datos guardados son correctos
-  });
+  })
 });
 
 // Prueba para comprobar que los datos se lean correctamente
 describe('Prueba de la funcion leerDB', () => {
   test('Debe leer los datos correctamente del archivo', () => {
     const archivo = './database/data.json';
-    const datos = [{ id: '1', completado: false, descripcion: 'Tarea 1' }];
+    const datos = [{ id: uuidv4(), completado: false, descripcion: 'Tarea 1' }];
     fs.writeFileSync(archivo, JSON.stringify(datos));
     const resultado = leerDB();
     expect(resultado).toEqual(datos); // verifica que los datos leidos sean iguales a los guardados
@@ -40,14 +43,20 @@ describe('Prueba de creacion objeto de la clase Tarea', () => {
 
 // Prueba para crear una tarea mediante el metodo de crearTarea de la clase Tarea
 describe('Prueba de creacion de una tarea para el listado de la clase Tarea', () => {
-  test('crearTarea agrega correctamente una tarea al listado', () => {
-    const listaTareas = new Tareas();
+  const listaTareas = new Tareas();
+  test('Debe verificar si se ha agregado una tarea al listado', () => {
     const descripcion = 'Tarea 1';
     listaTareas.crearTarea(descripcion);
     const tareasKeys = Object.keys(listaTareas.getListado);// Obtener las claves del listado de tareas
     expect(tareasKeys.length).toBe(1);// Verificar si se ha agregado una tarea al listado
+  })
+  test('Debe verificar si la descripcion de las tareas coinciden', () => {
+    const descripcion = 'Tarea 1';
+    listaTareas.crearTarea(descripcion);
+    const tareasKeys = Object.keys(listaTareas.getListado);// Obtener las claves del listado de tareas
     const primeraTarea = listaTareas.getListado[tareasKeys[0]];// Obtener la primera tarea del listado
     expect(primeraTarea.descripcion).toBe(descripcion);// Verificar si la descripción de la tarea coincide con la proporcionada
+    
   })
 })
 
