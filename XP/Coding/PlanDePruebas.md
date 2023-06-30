@@ -5,6 +5,23 @@
 -Validar que el programa lea correctamente datos en el archivo.
 ## Prueba Unitaria 03: 
 -Validar que el programa cree un objeto de la clase Tarea
+## Prueba Unitaria 04:
+-Verificr que el archivo existe
+## Prueba Unitaria 05: 
+-Verificar si los datos guardados son los correctos
+## Prueba Unitaria 06: 
+-Verificar si se ha agregado una tarea al listado
+## Prueba Unitaria 07: 
+-Verificar si la descripcion de las tareas coinciden 
+## Prueba Unitaria 08: 
+-Verificar que liste correctamete las areas creadas 
+## Prueba Unitaria 09: 
+-Verificar que se pueda eliminar una tarea
+## Prueba Unitaria 10: 
+-Verificar que no haga nada si se borra una tarea inexistente
+## Prueba Unitaria 11: 
+-Validar que el programa liste las tareas pendientes y completadas
+
 
 
 # Pruebas Funcionales
