@@ -55,3 +55,7 @@ Historia de usuario 02:
 1. Como usuario, quiero poder ejecutar el programa en mi consola para acceder a las funcionalidades.
 2. Como usuario, deseo que el programa tenga interfaz en consola que sea intuitiva y fácil de usar.
 3. Como usuario, quiero poder filtrar mis tareas según su estado (pendiente o completada) para visualizar solo las que me interesen en un momento dado.
+
+### Repositorio
+Para obtener toda la información y el código puede ingresar al repositorio donde se realizó todo el trabajo
+[Repositorio de GitHub](https://github.com/MJesusGonzalez/Grupo3.git)
