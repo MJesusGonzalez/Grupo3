@@ -16,7 +16,6 @@ export class Tareas{
         return this;
     }
     listadoCompleto(){
-        console.log('')
         this.getListado.forEach((item,idx) =>{
             const estado = (item.completado)? 'Completada'.green:'Pendiente'.red;
             console.log(` ${colors.green(idx+1+'.')} ${item.descripcion} :: ${estado} `)
