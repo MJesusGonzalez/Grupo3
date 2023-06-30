@@ -5,8 +5,6 @@ import * as menu from './helpers/menu.js';
 import { Tareas } from './models/tareas.js';
 import { Tarea } from './models/tarea.js';
 
-
-
 // Prueba para comprobar si se guarda correctamente en el archivo
 describe('Prueba de la función guardarDB', () => {
   test('Debe guardar los datos correctamente en el archivo', () => {

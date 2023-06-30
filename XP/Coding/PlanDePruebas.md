@@ -1,14 +1,10 @@
 # Pruebas Unitarias
 ## Prueba Unitaria 01
--Validar que el programa se ejecute en consola para acceder a las distintas funcionalidades.
+-Validar que el programa guarde correctamente datos en el archivo.
 ## Prueba Unitaria 02
--Validar que el programa tenga la capacidad de agregar nuevas tareas a una lista.
-## Prueba Unitaria 03
--Validar que el programa pueda eliminar la stareas de la lista sin importar el estado en que se encuentre (completado o pendiente).
-## Prueba Unitaria 04
--Validar que el programa tenga la capacidad de marcar una tarea como completada.
-## Prueba Unitaria 05
--Validar que el programa tenga la capacidad de mostrar las tareas en consola.
+-Validar que el programa lea correctamente datos en el archivo.
+## Prueba Unitaria 03: 
+-Validar que el programa cree un objeto de la clase Tarea
 
 
 # Pruebas Funcionales
@@ -28,5 +24,3 @@
 -Aplicar los filtros de estado y verificar que solo se muestren las tareas correspondientes.
 ## Prueba Funcional 08
 -Comprobar que las tareas actualizadas cambien su estado correctamente.
-## Prueba Funcional 09
--Verificar que la aplicación se instale y ejecute correctamente todas las funcionalidades en en diferentes sistemas operativos (Windows, macOS, Linux, etc.).
