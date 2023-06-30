@@ -19,8 +19,6 @@
 
 ### Tiempo: 
   2 días
-### Seguimiento
-[Referencia al archivo]
 
 ## Iteración 2
 - Programación de la segunda historia de usuario.
@@ -33,5 +31,7 @@
 - Lanzamiento
 ### Tiempo: 
   2 días
-### Seguimiento
-[Referencia al archivo]
+
+### Repositorio
+Para obtener toda la información y el código puede ingresar al repositorio donde se realizó todo el trabajo
+[Repositorio de GitHub](https://github.com/MJesusGonzalez/Grupo3.git)
