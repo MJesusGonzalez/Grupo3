@@ -9,18 +9,16 @@
 
 # Pruebas Funcionales
 ## Prueba Funcional 01
--Verificar que la interfaz de usuario sea intuitiva y fácil de usar.
-## Prueba Funcional 02
 -Probar todas las opciones del menú para asegurarse de que funcionen correctamente.
-## Prueba Funcional 03
+## Prueba Funcional 02
 -Registrar una nueva tarea y verificar que se almacene correctamente en el sistema.
-## Prueba Funcional 04
+## Prueba Funcional 03
 -Realizar pruebas de edición y eliminación de tareas para asegurarse de que funcionen correctamente.
-## Prueba Funcional 05
+## Prueba Funcional 04
 -Verificar que todas las tareas registradas se muestren correctamente en la interfaz.
-## Prueba Funcional 06
+## Prueba Funcional 05
 -Registrar tareas con diferentes estados (pendiente y completado).
-## Prueba Funcional 07
+## Prueba Funcional 06
 -Aplicar los filtros de estado y verificar que solo se muestren las tareas correspondientes.
-## Prueba Funcional 08
+## Prueba Funcional 07
 -Comprobar que las tareas actualizadas cambien su estado correctamente.
