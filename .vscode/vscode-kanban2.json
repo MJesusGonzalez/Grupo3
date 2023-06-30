@@ -1,5 +1,8 @@
 {
-  "todo": [
+  "todo": [],
+  "in-progress": [],
+  "testing": [],
+  "done": [
     {
       "assignedTo": {
         "name": "Vulpix, Meowth, Infenape"
@@ -69,9 +72,19 @@
       "id": "10",
       "references": [],
       "title": "Realizar Pruebas Unitarias"
+    },
+    {
+      "assignedTo": {
+        "name": "Bárbol (gestor y cliente), Infernape, Meowth"
+      },
+      "creation_time": "2023-06-30T04:14:39.910Z",
+      "description": {
+        "content": "Realización del manual de usuario",
+        "mime": "text/markdown"
+      },
+      "id": "13",
+      "references": [],
+      "title": "Manual de usuario"
     }
-  ],
-  "in-progress": [],
-  "testing": [],
-  "done": []
+  ]
 }

@@ -6,8 +6,6 @@ import { Tarea } from './models/tarea.js';
 import { jest } from '@jest/globals';
 import colors from 'colors';
 
-
-
 // Prueba para comprobar si se guarda correctamente en el archivo
 describe('Prueba de la función guardarDB', () => {
   test('Debe guardar los datos correctamente en el archivo', () => {
