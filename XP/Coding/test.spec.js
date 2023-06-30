@@ -143,24 +143,3 @@ describe('Prueba para listar las tareas pendientes o completadas con el metodo t
     consoleSpy.mockRestore();
   })
 })
-//// Prueba para marcar como completadas o pendientes mediante el metodo toggleCompletadas
-//describe('Prueba para marcar como completadas o pendientes mediante el metodo toggleCompletadas', () => {
-//  const listaTareas = new Tareas();
-//  listaTareas.crearTarea('Tarea 1');
-//  listaTareas.crearTarea('Tarea 2');
-//  const lista = [...listaTareas.getListado];
-//  lista[1].completado = true;
-  
-//  console.log(lista[1]);
-//  //test('Debe marcar las tareas especificadas como completadas', () => {
-//  //  listaTareas.toggleCompletadas(listaTareas.getListado);
-//  //  expect(tareas.listado[1].completado).toBe(true);
-//  //  expect(tareas.listado[3].completado).toBe(true);
-//  //});
-
-//  //test('Debe marcar las tareas especificadas como pendientes', () => {
-//  //  tareas.toggleCompletadas(listaTareas.getListado);
-//  //  expect(tareas.listado[2].completado).toBe(false);
-//  //  expect(tareas.listado[3].completado).toBe(false);
-//  //});
-//})
