@@ -4,7 +4,7 @@
 - Aceptado
 #### Captura
 <p align="center">
-  <img src="image/ResultadoPruebasUnitarias.png" />
+  <img src="image/ResultadoPruebasUnitarias.jpg" />
 </p>
 
 ## Prueba Unitaria 02: -Validar que el programa lea correctamente datos en el archivo.
@@ -12,7 +12,7 @@
 - Aceptado
 #### Captura
 <p align="center">
-  <img src="image/ResultadoPruebasUnitarias.png" />
+  <img src="image/ResultadoPruebasUnitarias.jpg" />
 </p>
 
 ## Prueba Unitaria 03: -Validar que el programa cree un objeto de la clase Tarea
@@ -20,5 +20,5 @@
 - Aceptado
 #### Captura
 <p align="center">
-  <img src="image/ResultadoPruebasUnitarias.png" />
+  <img src="image/ResultadoPruebasUnitarias.jpg" />
 </p>
